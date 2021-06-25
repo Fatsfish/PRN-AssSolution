@@ -1,0 +1,36 @@
+D:\Study\Summer2021\PRN211\Demos\Assignment\Ass01Solution\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+D:\Study\Summer2021\PRN211\Demos\Assignment\Ass01Solution\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+D:\Study\Summer2021\PRN211\Demos\Assignment\Ass01Solution\BusinessObject\bin\Debug\net5.0\ref\BusinessObject.dll
+D:\Study\Summer2021\PRN211\Demos\Assignment\Ass01Solution\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+D:\Study\Summer2021\PRN211\Demos\Assignment\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.csprojAssemblyReference.cache
+D:\Study\Summer2021\PRN211\Demos\Assignment\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Summer2021\PRN211\Demos\Assignment\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+D:\Study\Summer2021\PRN211\Demos\Assignment\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+D:\Study\Summer2021\PRN211\Demos\Assignment\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\Study\Summer2021\PRN211\Demos\Assignment\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+D:\Study\Summer2021\PRN211\Demos\Assignment\Ass01Solution\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+D:\Study\Summer2021\PRN211\Demos\Assignment\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\Users\User-PC\Downloads\Ass01Solution\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\Users\User-PC\Downloads\Ass01Solution\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\User-PC\Downloads\Ass01Solution\BusinessObject\bin\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\User-PC\Downloads\Ass01Solution\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\User-PC\Downloads\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.csprojAssemblyReference.cache
+C:\Users\User-PC\Downloads\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User-PC\Downloads\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\User-PC\Downloads\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\Users\User-PC\Downloads\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\User-PC\Downloads\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\Users\User-PC\Downloads\Ass01Solution\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\User-PC\Downloads\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+D:\FPTU\2021 S2 Summer\PRN211\Lab\Ass02Solution\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+D:\FPTU\2021 S2 Summer\PRN211\Lab\Ass02Solution\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+D:\FPTU\2021 S2 Summer\PRN211\Lab\Ass02Solution\BusinessObject\bin\Debug\net5.0\ref\BusinessObject.dll
+D:\FPTU\2021 S2 Summer\PRN211\Lab\Ass02Solution\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+D:\FPTU\2021 S2 Summer\PRN211\Lab\Ass02Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.csprojAssemblyReference.cache
+D:\FPTU\2021 S2 Summer\PRN211\Lab\Ass02Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTU\2021 S2 Summer\PRN211\Lab\Ass02Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+D:\FPTU\2021 S2 Summer\PRN211\Lab\Ass02Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+D:\FPTU\2021 S2 Summer\PRN211\Lab\Ass02Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\FPTU\2021 S2 Summer\PRN211\Lab\Ass02Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+D:\FPTU\2021 S2 Summer\PRN211\Lab\Ass02Solution\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+D:\FPTU\2021 S2 Summer\PRN211\Lab\Ass02Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
