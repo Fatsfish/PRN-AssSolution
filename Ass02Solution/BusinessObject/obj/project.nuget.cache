@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3EVprKEu+EH9eEgX0eaS37ewX162g6HQKF/P75XH9xe9gjQq1aVVnrLAoxMzb+3XTuNtba7h7G80w8u3TJwuHQ==",
+  "dgSpecHash": "tAMyxqFKN+9DjShNDV8ulpdqxlloLKL0nkjbBKfHPNqg/kl2ezFIweTshI/sVRA3KNAKlEHKZ9Vreeqmivi+fA==",
   "success": true,
-  "projectFilePath": "D:\\FPTU\\2021 S2 Summer\\PRN211\\Lab\\Ass02Solution\\BusinessObject\\BusinessObject.csproj",
+  "projectFilePath": "D:\\FPTU\\2021 S2 Summer\\PRN211\\Lab\\PRN-AssSolution\\Ass02Solution\\BusinessObject\\BusinessObject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User-PC\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\User-PC\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

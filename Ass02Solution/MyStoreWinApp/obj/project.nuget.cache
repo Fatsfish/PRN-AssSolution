@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VlOQqn5XSLC9B4fbyBQhZB9NXslnzjDdKIzBnLm0F14rYXSd3DfdKZ1FbQT8R1Nsov5O48qMGpfdjbnkL6OFBA==",
+  "dgSpecHash": "0N/8O+MfFkpCAHgyPttQg4RrdGoy3bbRR3PL/nF5r0F61Fmh321gFmdZ9zwvc0hvj+Zf177dlfG76HwlCeD93w==",
   "success": true,
-  "projectFilePath": "D:\\FPTU\\2021 S2 Summer\\PRN211\\Lab\\Ass02Solution\\MyStoreWinApp\\SalesWinApp.csproj",
+  "projectFilePath": "D:\\FPTU\\2021 S2 Summer\\PRN211\\Lab\\PRN-AssSolution\\Ass02Solution\\MyStoreWinApp\\SalesWinApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User-PC\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\User-PC\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
