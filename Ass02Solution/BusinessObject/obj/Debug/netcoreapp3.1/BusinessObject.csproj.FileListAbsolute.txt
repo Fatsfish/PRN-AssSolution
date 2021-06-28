@@ -1,0 +1,15 @@
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\bin\Debug\netcoreapp3.1\BusinessObject.deps.json
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\bin\Debug\netcoreapp3.1\BusinessObject.runtimeconfig.json
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\bin\Debug\netcoreapp3.1\BusinessObject.runtimeconfig.dev.json
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\bin\Debug\netcoreapp3.1\BusinessObject.dll
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\bin\Debug\netcoreapp3.1\BusinessObject.pdb
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\bin\Debug\netcoreapp3.1\Interop.ADOX.dll
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\obj\Debug\netcoreapp3.1\BusinessObject.csprojAssemblyReference.cache
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\obj\Debug\netcoreapp3.1\Interop.ADOX.dll
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\obj\Debug\netcoreapp3.1\BusinessObject.csproj.ResolveComReference.cache
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\obj\Debug\netcoreapp3.1\BusinessObject.AssemblyInfoInputs.cache
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\obj\Debug\netcoreapp3.1\BusinessObject.AssemblyInfo.cs
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\obj\Debug\netcoreapp3.1\BusinessObject.csproj.CoreCompileInputs.cache
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\obj\Debug\netcoreapp3.1\BusinessObject.dll
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\obj\Debug\netcoreapp3.1\BusinessObject.pdb
+D:\FPTU\2021 S2 Summer\PRN211\Lab\PRN-AssSolution\Ass02Solution\BusinessObject\obj\Debug\netcoreapp3.1\BusinessObject.genruntimeconfig.cache

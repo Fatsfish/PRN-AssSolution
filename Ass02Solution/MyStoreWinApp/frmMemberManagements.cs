@@ -1,17 +1,12 @@
-﻿using BusinessObject;
-using DataAccess.Repository;
+﻿using DataAccess.Repository;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using BusinessObject;
 namespace MyStoreWinApp
-{  
+{
     public partial class frmMemberManagements : Form
     {
         public bool isAdmin { get; set; }
@@ -45,10 +40,12 @@ namespace MyStoreWinApp
                 cboSearchCountry.Enabled = false;
                 dgvMemberList.CellDoubleClick += null;
             }
-            else {
+            else
+            {
                 btnDelete.Enabled = false;
                 //Register this event to open the frmMemberDetail form that performs updating
-                dgvMemberList.CellDoubleClick += DgvMemberList_CellDoubleClick; }
+                dgvMemberList.CellDoubleClick += DgvMemberList_CellDoubleClick;
+            }
         }
         //----------------------------------------
         private void DgvMemberList_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -88,8 +85,8 @@ namespace MyStoreWinApp
             {
                 member = new MemberObject
                 {
-                    MemberID = int.Parse(txtMemberID.Text),
-                    MemberName = txtMemberName.Text,
+                    MemberId = int.Parse(txtMemberID.Text),
+                    CompanyName = txtMemberName.Text,
                     Password = txtPassword.Text,
                     Email = txtEmail.Text,
                     Country = cboCountry.Text,
@@ -105,13 +102,13 @@ namespace MyStoreWinApp
         public void LoadMemberList()
         {
             var members = memberRepository.GetMembers();
-         
+
             try
             {
                 //The BindingSource omponent is designed to simplify
                 //the process of binding controls to an underlying data source
                 source = new BindingSource();
-                source.DataSource = members.OrderByDescending(member=> member.MemberName);
+                source.DataSource = members.OrderByDescending(member => member.CompanyName);
                 txtMemberID.DataBindings.Clear();
                 txtMemberName.DataBindings.Clear();
                 txtPassword.DataBindings.Clear();
@@ -162,10 +159,10 @@ namespace MyStoreWinApp
         //------------------------------------------------------
         private void btnLoad_Click(object sender, EventArgs e)
         {
-            
-                LoadMemberList();
-            
-           
+
+            LoadMemberList();
+
+
         }
         //-----------------------------------------------------
         private void btnNew_Click(object sender, EventArgs e)
@@ -188,7 +185,7 @@ namespace MyStoreWinApp
             try
             {
                 var member = GetMemberObject();
-                memberRepository.DeleteMember(member.MemberID);
+                memberRepository.DeleteMember(member.MemberId);
                 LoadMemberList();
             }
             catch (Exception ex)
@@ -202,7 +199,7 @@ namespace MyStoreWinApp
             this.Close();
         }
         private void LoadOneMember()
-        {   
+        {
             MemberObject member = new MemberObject();
             var members = memberRepository.GetMembers();
             try
@@ -211,12 +208,12 @@ namespace MyStoreWinApp
                 {
                     //The BindingSource omponent is designed to simplify
                     //the process of binding controls to an underlying data source
-                    if (i.MemberName.Equals(txtSearch.Text))
+                    if (i.CompanyName.Equals(txtSearch.Text))
                     {
                         source = new BindingSource();
 
 
-                        source.DataSource = memberRepository.GetMemberByID(i.MemberID);
+                        source.DataSource = memberRepository.GetMemberByID(i.MemberId);
 
                         txtMemberID.DataBindings.Clear();
                         txtMemberName.DataBindings.Clear();
@@ -237,12 +234,12 @@ namespace MyStoreWinApp
                         dgvMemberList.DataSource = source;
                         break;
                     }
-                    else if(i.MemberID.ToString().Equals(txtSearch.Text))
+                    else if (i.MemberId.ToString().Equals(txtSearch.Text))
                     {
                         source = new BindingSource();
 
 
-                        source.DataSource = memberRepository.GetMemberByID(i.MemberID);
+                        source.DataSource = memberRepository.GetMemberByID(i.MemberId);
 
                         txtMemberID.DataBindings.Clear();
                         txtMemberName.DataBindings.Clear();
@@ -263,7 +260,7 @@ namespace MyStoreWinApp
                         dgvMemberList.DataSource = source;
                         break;
                     }
-                     
+
 
                 }
             }
@@ -275,17 +272,17 @@ namespace MyStoreWinApp
 
 
         private void btnSearch_Click(object sender, EventArgs e)
-        {   
-            
+        {
+
             LoadOneMember();
         }
-      
+
         private void FilterMember()
         {
-          
+
             MemberObject member = new MemberObject();
             List<MemberObject> filterList = memberRepository.GetMemberByCityAndCountry(cboSearchCity.Text, cboSearchCountry.Text);
-           // var members = memberRepository.GetMembers();
+            // var members = memberRepository.GetMembers();
             try
             {
 
@@ -315,7 +312,7 @@ namespace MyStoreWinApp
                 else if (filterList.Count != 0)
                 {
                     source = new BindingSource();
-                    source.DataSource = filterList.OrderByDescending(member => member.MemberName);
+                    source.DataSource = filterList.OrderByDescending(member => member.CompanyName);
                     txtMemberID.DataBindings.Clear();
                     txtMemberName.DataBindings.Clear();
                     txtPassword.DataBindings.Clear();
@@ -342,7 +339,7 @@ namespace MyStoreWinApp
             }
         }
 
-       
+
 
         private void btnFind_Click(object sender, EventArgs e)
         {
@@ -360,5 +357,5 @@ namespace MyStoreWinApp
         }
 
     }
-  
+
 }

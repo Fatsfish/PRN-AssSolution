@@ -1,15 +1,7 @@
-﻿using BusinessObject;
-using DataAccess.Repository;
+﻿using DataAccess.Repository;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using BusinessObject;
 namespace MyStoreWinApp
 {
     public partial class frmMemberDetails : Form
@@ -31,8 +23,8 @@ namespace MyStoreWinApp
             if (InsertOrUpdate == true)//update mode
             {
                 //Show member to perform updating
-                txtMemberID.Text = MemberInfor.MemberID.ToString();
-                txtMemberName.Text = MemberInfor.MemberName;
+                txtMemberID.Text = MemberInfor.MemberId.ToString();
+                txtMemberName.Text = MemberInfor.CompanyName;
                 cboCity.Text = MemberInfor.City;
                 txtEmail.Text = MemberInfor.Email;
                 cboCountry.Text = MemberInfor.Country;
@@ -46,12 +38,12 @@ namespace MyStoreWinApp
             {
                 var member = new MemberObject
                 {
-                    MemberID = int.Parse(txtMemberID.Text),
-                    MemberName = txtMemberName.Text,
+                    MemberId = int.Parse(txtMemberID.Text),
+                    CompanyName = txtMemberName.Text,
                     City = cboCity.Text,
                     Email = txtEmail.Text,
-                    Country= cboCountry.Text,
-                    Password=txtPassword.Text,
+                    Country = cboCountry.Text,
+                    Password = txtPassword.Text,
                 };
                 if (InsertOrUpdate == false)
                 {
@@ -69,6 +61,6 @@ namespace MyStoreWinApp
         }
 
         private void btnCancel_Click(object sender, EventArgs e) => Close();
-       
+
     }
 }
